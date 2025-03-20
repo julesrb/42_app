@@ -1,0 +1,61 @@
+SUBJECT
+
+ Your app must have at least 2 views.
+• You must handle all cases of errors (login not found, network error, etc.).
+• The second view must display the login information, if the login exists.
+• You must display at least four details for the user (login, email, mobile, level, location,
+wallet, evaluations etc.) along with the profile picture.
+• You must display the user’s skills with level and percentage.
+• You must display the projects that the user has completed, including failed ones.
+• Your app must allow for navigating back to the first view.
+• This project must use a flexible or modern layout technique, such as layout constraints,
+to ensure that the user interface displays correctly on different screen sizes and mobile
+platforms.
+• Do not create a token for each query
+
+
+
+Recreate token at expiration date. If the token expires, the application must refresh it.
+The application must still be able to work properly in any case.
+
+
+FEATURES
+
+// VIEW - login
+
+login with Oauth2
+
+// VIEW - DASHBOARD
+
+Picture
+
+login
+level
+last time online @ location
+evaluation points
+> curl  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" "https://api.intra.42.fr/v2/users/2"
+
+list evals scheduled.
+
+list project completed and registered for. 
+
+----
+
+search Users and display same things.
+
+
+// VIEW - EVENT
+
+event list and registered 
+
+option to sync with icalendar. 
+
+
+// EVAL
+
+Book eval or open an eval.
+
+
+
+
+
